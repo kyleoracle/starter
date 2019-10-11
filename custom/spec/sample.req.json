@@ -5,7 +5,10 @@
     "variables": {}
   },
   "properties": {
-    "human": "Bot Developer"
+    "version": "1",
+    "werckerToken": "xxx",
+    "pipelineIdV1": "aaa",
+    "pipelineIdV2": "bbb"
   },
   "message": {
     "payload": {},

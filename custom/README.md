@@ -24,7 +24,7 @@ npm start
 curl -X GET localhost:3000/components
 
 # invoke custom component
-curl -H "Content-Type: application/json" -d @./spec/sample.req.json localhost:3000/components/hello.world
+curl -H "Content-Type: application/json" -d @./spec/sample.req.json localhost:3000/components/check
 ```
 
 ### package.json

@@ -27,7 +27,7 @@ module.exports = {
     
     dir.on('exit', function (code) {
       // exit code is code
-      console.log('exit=' + code)
+      console.log('exit code=' + code)
     });
     
   }
