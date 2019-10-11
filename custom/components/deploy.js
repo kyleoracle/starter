@@ -14,6 +14,11 @@ module.exports = {
   invoke: (conversation, done) => {
     // perform conversation tasks.
     const { version } = conversation.properties();
+    const { werckerToken } = conversation.properties();
+    const { pipelineIdV1 } = conversation.properties();
+    const { pipelineIdV2 } = conversation.properties();
+
+
     conversation.logger().info("version=" + version);
 
     // call wercker
